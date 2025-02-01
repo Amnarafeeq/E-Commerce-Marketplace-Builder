@@ -1,0 +1,12 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Expected Result,Status,Severity Level,Assigned To,Remarks
+TC001,Product listing loads correctly,"Open homepage, check product display",Products should be visible,Products should be visible,Pass,Low,-,All products displayed correctly
+TC002,Search functionality works,"Enter product name in search bar, press enter",Relevant products should appear,Relevant products should appear,Pass,Low,-,Search results accurate
+TC003,Cart operations (add/remove items),"Add a product to the cart, then remove it",Product should be added/removed successfully,Product should be added/removed successfully,Pass,Low,-,Cart functionality smooth
+TC004,Checkout process works,"Select product, proceed to checkout, complete payment",Order should be placed successfully,Order should be placed successfully,Pass,Medium,-,No payment issues detected
+TC005,API error handling,Disconnect internet and load page,Show 'No internet connection' message,Show 'No internet connection' message,Pass,Medium,-,Fallback UI works fine
+TC006,Cross-browser compatibility,"Open site in Chrome, Firefox, Safari, Edge",Website should work properly,Website should work properly,Pass,Low,-,Tested on major browsers
+TC007,Mobile responsiveness,"Open site on mobile (iOS, Android)",Website should adjust properly,Website should adjust properly,Pass,Low,-,Design adapts well
+TC008,Security testing - Input validation,Enter invalid data in form fields,Validation error should appear,Validation error should appear,Pass,Medium,-,Validation prevents invalid input
+TC009,Secure API calls (HTTPS),Check API requests in DevTools,All API calls should use HTTPS,All API calls should use HTTPS,Pass,High,-,Secure API implementation confirmed
+TC010,User authentication,Login with valid & invalid credentials,Login should work correctly,Login should work correctly,Pass,Medium,-,Authentication tested with various inputs
+TC011,Lighthouse Performance Test,Run Lighthouse audit,Performance should be optimized,Performance should be optimized,Pass,Medium,-,Further optimization possible
